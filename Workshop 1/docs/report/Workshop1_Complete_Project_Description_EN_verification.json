@@ -1,0 +1,16 @@
+{
+  "language": "English",
+  "source_document": "Descripcion_completa_Workshop1.pdf",
+  "source_sha256": "016045d9b07e021817585b58f8dbff3f607c23f8d33555c2ab8f2c08f68ef018",
+  "translation_sha256": "d82e761ba7c067f7303cd42188dd1d3a0071c0f55b0f69e5bdf502d8a8b39bc6",
+  "verification": {
+    "pages": 11,
+    "text_extracted_using": "pdftxt",
+    "sections_subsections_items_tables_and_references_preserved": true,
+    "mathematical_expressions_unchanged": true,
+    "author_and_repository_link_preserved": true,
+    "spanish_original_preserved": true,
+    "latex_overfull_boxes": 0
+  },
+  "figure_note": "The original Spanish-language web interface screenshot is retained as recorded evidence; its caption is translated."
+}

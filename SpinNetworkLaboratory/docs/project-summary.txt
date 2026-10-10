@@ -1,0 +1,28 @@
+Project title: Spin Network Laboratory — Workshop 1: Functional Progress
+Subtitle: Dynamic Topological Network Simulator in C++ and SFML
+
+Team members: [Insert the actual team members' names]
+
+Project description:
+A computational system inspired by spin networks for constructing, visualizing,
+modifying, and analyzing dynamic topological graphs using custom data structures,
+numerical integration, and combinatorial invariants. Its artificial forces organize
+the graph visualization; it does not simulate quantum gravity.
+
+Currently implemented components:
+- Custom singly linked list with unique_ptr ownership and deep copying.
+- Custom FNV-1a hash table with separate chaining and automatic rehashing.
+- Simple undirected graph with vertex/edge editing and incident-edge cleanup.
+- C++ force engine, damped Velocity Verlet, and fixed 1/120-second updates.
+- Compiled SFML application with rendering, IDs, editing, dragging, pinning,
+  pause, and adjustable parameters. Desktop execution remains to be validated.
+- Core, physics, and interaction tests, including 5,000 hash-table vertices,
+  deliberate collisions, and stable integration of 100 graph nodes.
+- Technical report, auxiliary console, and an independent JavaScript web demo.
+
+Two-delivery plan:
+Workshop 1 (weeks 1–6): functional graph, SFML visualization, and physics.
+Workshop 2 (weeks 7–12): doubly linked list, C++ snapshots, undo/redo,
+invariants, analytical UI, and local graph refinement.
+
+Link to the GitHub repository: [Insert the actual GitHub repository URL]

@@ -1,0 +1,10 @@
+DOCUMENTO ACTUALIZADO PARA EL TUTOR
+Integrante: Dairon Steven Cabascango Erazo
+GitHub: https://github.com/stevencabascango/Spin-Newtwork-of-Quantum-Gravity.git
+PDF: docs/report/Descripcion_completa_Workshop1.pdf (11 páginas).
+
+WORKSHOP 1 — AVANCE FUNCIONAL
+Fuentes C++17, SFML, pruebas e informe en docs/report/workshop1.pdf.
+Ejecutable Linux: bin/spin_network. Windows: compilar SpinNetworkLaboratory.cbp con SFML 2.6 compatible.
+Validación visual de SFML pendiente por restricción X11 del entorno; ver docs/validation.md.
+Esta carpeta conserva la versión de la primera entrega.

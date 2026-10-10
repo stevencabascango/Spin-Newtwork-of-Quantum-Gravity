@@ -1,0 +1,6 @@
+Workshop 1: Linux x86_64, SFML 2.6.2.
+Desde la carpeta extraida: chmod +x bin/spin_network && ./bin/spin_network
+Requiere escritorio X11, OpenGL, FreeType y bibliotecas X11 del sistema.
+Este binario no es un ejecutable Windows.
+La ventana SFML no pudo probarse en el sandbox: verificar en un escritorio normal.
+La captura y prueba automatica se ejecutan con ./bin/spin_network --smoke-test

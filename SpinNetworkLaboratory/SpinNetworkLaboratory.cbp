@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<CodeBlocks_project_file>
+  <FileVersion major="1" minor="6" />
+  <Project>
+    <Option title="Spin Network Laboratory" />
+    <Option compiler="gcc" />
+    <Build>
+      <Target title="Debug">
+        <Option output="bin/Debug/SpinNetworkLaboratory" prefix_auto="1" extension_auto="1" />
+        <Option object_output="obj/Debug/" />
+        <Option type="1" />
+        <Compiler>
+          <Add option="-g" />
+        </Compiler>
+        <Linker>
+          <Add library="sfml-graphics" />
+          <Add library="sfml-window" />
+          <Add library="sfml-system" />
+        </Linker>
+      </Target>
+      <Target title="Release">
+        <Option output="bin/Release/SpinNetworkLaboratory" prefix_auto="1" extension_auto="1" />
+        <Option object_output="obj/Release/" />
+        <Option type="1" />
+        <Compiler>
+          <Add option="-O2" />
+        </Compiler>
+        <Linker>
+          <Add library="sfml-graphics" />
+          <Add library="sfml-window" />
+          <Add library="sfml-system" />
+        </Linker>
+      </Target>
+      <Target title="Tests">
+        <Option output="bin/Tests/test_core" prefix_auto="1" extension_auto="1" />
+        <Option object_output="obj/Tests/" />
+        <Option type="1" />
+      </Target>
+      <Target title="PhysicsTests">
+        <Option output="bin/PhysicsTests/SpinNetworkLaboratory" prefix_auto="1" extension_auto="1" />
+        <Option object_output="obj/PhysicsTests/" />
+        <Option type="1" />
+      </Target>
+      <Target title="InteractionTests">
+        <Option output="bin/InteractionTests/SpinNetworkLaboratory" prefix_auto="1" extension_auto="1" />
+        <Option object_output="obj/InteractionTests/" />
+        <Option type="1" />
+      </Target>
+      <Target title="Console">
+        <Option output="bin/Console/SpinNetworkLaboratory" prefix_auto="1" extension_auto="1" />
+        <Option object_output="obj/Console/" />
+        <Option type="1" />
+      </Target>
+    </Build>
+    <Compiler>
+      <Add option="-std=c++17" />
+      <Add option="-Wall" />
+      <Add option="-Wextra" />
+      <Add directory="include" />
+    </Compiler>
+    <Unit filename="main.cpp">
+      <Option target="Debug" />
+      <Option target="Release" />
+    </Unit>
+    <Unit filename="src/Application/DesktopApplication.cpp">
+      <Option target="Debug" />
+      <Option target="Release" />
+    </Unit>
+    <Unit filename="src/Graphics/GraphRenderer.cpp">
+      <Option target="Debug" />
+      <Option target="Release" />
+    </Unit>
+    <Unit filename="src/Graphics/InputController.cpp">
+      <Option target="Debug" />
+      <Option target="Release" />
+    </Unit>
+    <Unit filename="src/Graphics/HUD.cpp">
+      <Option target="Debug" />
+      <Option target="Release" />
+    </Unit>
+    <Unit filename="tests/test_core.cpp">
+      <Option target="Tests" />
+    </Unit>
+    <Unit filename="tests/test_physics.cpp">
+      <Option target="PhysicsTests" />
+    </Unit>
+    <Unit filename="tests/test_interaction.cpp">
+      <Option target="InteractionTests" />
+    </Unit>
+    <Unit filename="src/console.cpp">
+      <Option target="Console" />
+    </Unit>
+    <Unit filename="include/Application/DesktopApplication.hpp" />
+    <Unit filename="include/Application/SimulationController.hpp" />
+    <Unit filename="include/Core/GraphMetrics.hpp" />
+    <Unit filename="include/Core/QuantumGraph.hpp" />
+    <Unit filename="include/Core/QuantumVertex.hpp" />
+    <Unit filename="include/Core/SpinEdge.hpp" />
+    <Unit filename="include/Core/Vec2.hpp" />
+    <Unit filename="include/Core/Vector2D.hpp" />
+    <Unit filename="include/DataStructures/HashTable.hpp" />
+    <Unit filename="include/DataStructures/SinglyLinkedList.hpp" />
+    <Unit filename="include/Graphics/GraphRenderer.hpp" />
+    <Unit filename="include/Graphics/HUD.hpp" />
+    <Unit filename="include/Graphics/InputController.hpp" />
+    <Unit filename="include/Physics/ForceEngine.hpp" />
+    <Unit filename="include/Physics/PhysicsParameters.hpp" />
+    <Unit filename="include/Physics/VerletIntegrator.hpp" />
+  </Project>
+</CodeBlocks_project_file>

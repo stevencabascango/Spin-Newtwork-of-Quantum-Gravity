@@ -1,0 +1,271 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: SFML (Simple and Fast Multimedia Library)
+Source: https://github.com/SFML/SFML
+ Repackaged to remove external libraries
+Files-Excluded:
+ extlibs/bin
+ extlibs/headers/AL
+ extlibs/headers/FLAC
+ extlibs/headers/catch.hpp
+ extlibs/headers/freetype2
+ extlibs/headers/mingw
+ extlibs/headers/ogg
+ extlibs/headers/stb_image
+ extlibs/headers/vorbis
+ extlibs/headers/vulkan
+ extlibs/libs-*
+
+Files: *
+Copyright:
+ 2007-2023, Laurent Gomila <laurent@sfml-dev.org>
+ 2007-2023, Marco Antognini <antognini.marco@gmail.com>
+ 2013, David Demelier <demelier.david@gmail.com>
+ 2013-2014, Jonathan De Wachter <dewachter.jonathan@gmail.com>
+ 2016-2023, Andrew Mickelson
+License: Zlib
+
+Files: cmake/Modules/FindFreetype.cmake
+Copyright: 2007-2009, Kitware, Inc.
+License: BSD-3-clause
+
+Files: cmake/Modules/FindOpenAL.cmake
+Copyright: 2000-2024 Kitware, Inc. and Contributors
+License: BSD-3-clause
+
+Files: cmake/Modules/FindUDev.cmake
+Copyright: 2011, Petr Vanek <petr@scribus.info>
+License: BSD-3-clause
+
+Files: debian/*
+Copyright:
+ 2008-2009 Christoph Egger <debian@christoph-egger.org>
+ 2013-2024 James Cowgill <jcowgill@debian.org>
+License: Zlib
+
+Files:
+ debian/missing-sources/sfml-final-clean.svg
+ examples/android/app/src/main/assets/image.png
+ examples/android/app/src/main/res/*/sfml_logo.png
+ examples/assets/icon.icns
+ examples/assets/logo.png
+ examples/cocoa/resources/icon.icns
+ examples/cocoa/resources/logo.png
+ examples/opengl/resources/logo.png
+ examples/shader/resources/logo.png
+ examples/tennis/resources/sfml_logo.png
+ examples/vulkan/resources/logo.png
+ tools/nsis/header.bmp
+ tools/nsis/sfml.ico
+ tools/nsis/sidebar.bmp
+Copyright: Public Domain
+License: public-domain-logo
+ The author has released the SFML logo into the public domain.
+ See http://en.sfml-dev.org/forums/index.php?topic=4960.msg78285#msg78285
+
+Files:
+ examples/android/app/src/main/assets/tuffy.ttf
+ examples/cocoa/resources/tuffy.ttf
+ examples/island/resources/tuffy.ttf
+ examples/joystick/resources/tuffy.ttf
+ examples/opengl/resources/tuffy.ttf
+ examples/shader/resources/tuffy.ttf
+ examples/tennis/resources/tuffy.ttf
+ tools/xcode/templates/SFML/*/tuffy.ttf
+Copyright: 2004-2011, Thatcher Ulrich, Karoly Barta and Michael Everson
+License: public-domain-tuffy
+ We, the copyright holders of this work, hereby release it into the
+ public domain. This applies worldwide.
+ .
+ In case this is not legally possible,
+ .
+ We grant any entity the right to use this work for any purpose, without
+ any conditions, unless such conditions are required by law.
+ .
+ Thatcher Ulrich <tu@tulrich.com> http://tulrich.com
+ Karoly Barta
+ Michael Evans http://www.evertype.com
+
+Files: examples/sound/resources/ding.*
+Copyright: Kenny.nl
+License: CC0-1.0
+Comment: https://www.kenney.nl/assets/interface-sounds
+
+Files:
+ examples/opengl/resources/background.jpg
+ tools/xcode/templates/SFML/*/background.jpg
+Copyright: 2017, Nidhoggn
+License: CC0-1.0
+Comment: https://opengameart.org/content/backgrounds-3
+
+Files:
+ examples/shader/resources/background.jpg
+Copyright: Arcana Dea
+License: CC0-1.0
+Comment:
+ https://www.publicdomainpictures.net/en/view-image.php?image=10979&picture=monarch-butterfly
+
+Files: examples/shader/resources/devices.png
+License: CC0-1.0
+Copyright: Kenny.nl
+Comment: https://www.kenney.nl/assets/game-icons
+
+Files:
+ examples/sound/resources/doodle_pop.ogg
+ examples/tennis/resources/ball.wav
+ tools/xcode/templates/SFML/*/doodle_pop.ogg
+Copyright: MrZeusTheCoder
+License: Unlicense
+Comment: https://github.com/MrZeusTheCoder/public-domain
+
+Files: examples/sound/resources/killdeer.wav
+Copyright: United States National Park Service
+License: public-domain-nps
+ Copyright law does not protect "any work of the U.S. Government" where
+ "a work prepared by an officer or employee of the U.S. Government as
+ part of that person's official duties" (See, 17 U.S.C. §§ 101,
+ 105). Thus, material created by the NPS and presented on this website,
+ unless otherwise indicated, is generally considered in the public
+ domain. It may be distributed or copied as permitted by applicable
+ law.
+Comment: https://www.nps.gov/subjects/sound/sounds-killdeer.htm
+
+Files: examples/win32/resources/image*.jpg
+Copyright: Kenny.nl
+License: CC0-1.0
+Comment: https://www.kenney.nl/assets/toon-characters-1
+
+Files: examples/island/stb_perlin.h
+Copyright: 2007, Sean Barrett
+License: Expat
+
+Files:
+ examples/X11/gl.h
+ examples/opengl/gl.h
+ examples/window/gl.h
+ extlibs/headers/glad/include/glad/gl.h
+ extlibs/headers/glad/include/glad/glx.h
+ extlibs/headers/glad/include/glad/wgl.h
+Copyright: 2007-2020, The Khronos Group Inc
+License: CC0-1.0 and Expat
+Comment:
+ Generated glad code is licensed as CC0. Portions based on OpenGL
+ headers licensed as Expat.
+
+Files:
+ examples/vulkan/vulkan.h
+ extlibs/headers/glad/include/glad/egl.h
+Copyright: 2007-2020, The Khronos Group Inc
+License: CC0-1.0 and Apache-2.0
+Comment:
+ Generated glad code is licensed as CC0. Portions based on OpenGL
+ and Vulkan headers licensed as Apache-2.0.
+
+Files: extlibs/headers/minimp3/*
+Copyright: lieff
+License: CC0-1.0
+
+License: Apache-2.0
+ On Debian systems, the full Apache-2.0 license text can be found at
+ /usr/share/common-licenses/Apache-2.0.
+
+License: BSD-3-clause
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions are met:
+ .
+ 1) Redistributions of source code must retain the above copyright notice,
+ this list of conditions and the following disclaimer.
+ .
+ 2) Redistributions in binary form must reproduce the above copyright notice,
+ this list of conditions and the following disclaimer in the documentation
+ and/or other materials provided with the distribution.
+ .
+ 3) Neither the name of the copyright holder nor the names of its contributors
+ may be used to endorse or promote products derived from this software
+ without specific prior written permission.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+License: CC0-1.0
+ To the extent possible under law, the author(s) have dedicated all copyright
+ and related and neighboring rights to this software to the public domain
+ worldwide. This software is distributed without any warranty.
+ .
+ You should have received a copy of the CC0 Public Domain Dedication along with
+ this software. If not, see <http://creativecommons.org/publicdomain/zero/1.0/>.
+ .
+ On Debian systems, the full text of the CC0 1.0 Universal license can be found
+ in the file `/usr/share/common-licenses/CC0-1.0'.
+
+License: Expat
+ Permission is hereby granted, free of charge, to any person obtaining a copy of
+ this software and associated documentation files (the "Software"), to deal in
+ the Software without restriction, including without limitation the rights to
+ use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies
+ of the Software, and to permit persons to whom the Software is furnished to do
+ so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in all
+ copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+ SOFTWARE.
+
+License: Unlicense
+ This is free and unencumbered software released into the public domain.
+ .
+ Anyone is free to copy, modify, publish, use, compile, sell, or
+ distribute this software, either in source code form or as a compiled
+ binary, for any purpose, commercial or non-commercial, and by any
+ means.
+ .
+ In jurisdictions that recognize copyright laws, the author or authors
+ of this software dedicate any and all copyright interest in the
+ software to the public domain. We make this dedication for the benefit
+ of the public at large and to the detriment of our heirs and
+ successors. We intend this dedication to be an overt act of
+ relinquishment in perpetuity of all present and future rights to this
+ software under copyright law.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+ EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+ MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+ IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+ OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+ OTHER DEALINGS IN THE SOFTWARE.
+ .
+ For more information, please refer to <https://unlicense.org>
+
+License: Zlib
+ This software is provided 'as-is', without any express or implied warranty.
+ In no event will the authors be held liable for any damages arising from
+ the use of this software.
+ .
+ Permission is granted to anyone to use this software for any purpose,
+ including commercial applications, and to alter it and redistribute it
+ freely, subject to the following restrictions:
+ .
+ 1. The origin of this software must not be misrepresented; you must not claim
+    that you wrote the original software. If you use this software in a product,
+    an acknowledgment in the product documentation would be appreciated but is
+    not required.
+ .
+ 2. Altered source versions must be plainly marked as such, and must not be
+    misrepresented as being the original software.
+ .
+ 3. This notice may not be removed or altered from any source distribution.
